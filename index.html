@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <header>
+      <h1>calc</h1>
+      <div class="theme-div">
+        theme
+        <ul class="theme-toggle">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h2 class="total">0</h2>
+      <ul class="calculator">
+        <li class="btn lg reset-del">reset</li>
+        <li class="btn lg equals">=</li>
+        <li id="point" class="btn sm num-operator">.</li>
+        <li id="zero" class="btn sm num-operator" data-value="0">0</li>
+        <li id="divide" class="btn sm num-operator">/</li>
+        <li id="multiply" class="btn sm num-operator">x</li>
+        <li id="one" class="btn sm num-operator" data-value="1">1</li>
+        <li id="two" class="btn sm num-operator" data-value="2">2</li>
+        <li id="three" class="btn sm num-operator" data-value="3">3</li>
+        <li id="minus" class="btn sm num-operator">-</li>
+        <li id="four" class="btn sm num-operator" data-value="4">4</li>
+        <li id="five" class="btn sm num-operator" data-value="5">5</li>
+        <li id="six" class="btn sm num-operator" data-value="6">6</li>
+        <li id="plus" class="btn sm num-operator">+</li>
+        <li id="seven" class="btn sm num-operator" data-value="7">7</li>
+        <li id="eight" class="btn sm num-operator" data-value="8">8</li>
+        <li id="nine" class="btn sm num-operator" data-value="9">9</li>
+        <li id="delete" class="btn sm reset-del">del</li>
+      </ul>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
